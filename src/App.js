@@ -18,7 +18,7 @@ class App extends Component {
   );
 }}
 
-//styling for Login Page header
+//Hoisted styling for Login Page header
 const loginStyle = {
   fontStyle: 'bold',
   textAlign: 'center',
