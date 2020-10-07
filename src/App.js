@@ -1,20 +1,30 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Button, Form, FormGroup, Label, Input} from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input, Container, Row, Media} from 'reactstrap';
 import { FacebookLoginButton } from 'react-social-login-buttons';
 
 class App extends Component {
   render() {
   return (
-    <Form className="login-form">
-      <h1 style={loginStyle} > Login Page </h1>    
-      <h2 className="text-center"> Welcome </h2>
-      <FormGroup>
-        <Label> Email </Label>
-        <Input type="email" placeholder="Email"/>
-      </FormGroup>
-    </Form>
+    <Container>
+      <Row>
+        <img 
+          src='./'
+          className="img-fluid"
+        />
+      </Row>
+      <Row>
+        <Form className="login-form">
+          <h1 style={loginStyle} > Login Page </h1>    
+          <h2 className="text-center"> Welcome </h2>
+          <FormGroup>
+            <Label> Email </Label>
+            <Input type="email" placeholder="Email"/>
+          </FormGroup>
+        </Form>
+      </Row>
+    </Container>
   );
 }}
 
