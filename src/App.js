@@ -8,9 +8,9 @@ import login from './login.jpeg';
 class App extends Component {
   render() {
   return (
-    <Container>
-      <Row>
-        <Col>
+    <Container fluid>
+      <Row >
+        <Col >
           <>
           <img 
             src={login}
@@ -19,7 +19,7 @@ class App extends Component {
           />
           </>
         </Col>
-        <Col>
+        <Col style={{paddingTop: '150px'}}>
           <Form className="login-form">
             <h1 style={loginStyle} > Login Page </h1>    
             <h2 className="text-center"> Welcome </h2>
