@@ -31,7 +31,11 @@ class App extends Component {
               <Label> Password </Label>
               <Input type="password" placeholder="Password"/>       {/* password type defaults user's input to be shown as dots (hidden) */}
             </FormGroup>
-            <Button className="btn-md btn-dark btn-block"> Log in </Button>
+            <Button className="btn-lg btn-dark btn-block"> Log in </Button>
+            <div className="text-center pt-3">
+              Or continue with your social account
+            </div>
+            <FacebookLoginButton className="mt-3 mb-3"/>
           </Form>
         </Col>
       </Row>
@@ -41,7 +45,7 @@ class App extends Component {
 
 //Hoisted styling for Login Page header
 const loginStyle = {
-  fontStyle: 'bold',
+  fontWeight: 'bold',
   textAlign: 'center',
   padding: '10px'
 }
