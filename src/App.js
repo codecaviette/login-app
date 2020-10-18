@@ -19,7 +19,7 @@ class App extends Component {
           />
           </>
         </Col>
-        <Col style={{paddingTop: '150px'}}>
+        <Col style={{padding: '10%'}}>
           <Form className="login-form">
             <h1 style={loginStyle} > Login Page </h1>    
             <h2 className="text-center"> Welcome </h2>
@@ -36,6 +36,12 @@ class App extends Component {
               Or continue with your social account
             </div>
             <FacebookLoginButton className="mt-3 mb-3"/>
+            <div className="text-center">
+              <a href="/sign-up"> Sign up</a>
+              <span className="p-2"> | </span>
+              <a href="forgot-password"> Forgot Password</a>
+
+            </div>
           </Form>
         </Col>
       </Row>
