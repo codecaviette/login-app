@@ -31,6 +31,7 @@ class App extends Component {
               <Label> Password </Label>
               <Input type="password" placeholder="Password"/>       {/* password type defaults user's input to be shown as dots (hidden) */}
             </FormGroup>
+            <Button className="btn-md btn-dark btn-block"> Log in </Button>
           </Form>
         </Col>
       </Row>
