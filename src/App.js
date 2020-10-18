@@ -27,6 +27,10 @@ class App extends Component {
               <Label> Email </Label>
               <Input type="email" placeholder="Email"/>
             </FormGroup>
+            <FormGroup>
+              <Label> Password </Label>
+              <Input type="password" placeholder="Password"/>       {/* password type defaults user's input to be shown as dots (hidden) */}
+            </FormGroup>
           </Form>
         </Col>
       </Row>
