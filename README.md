@@ -1,4 +1,4 @@
-This dynamic React app displays the UI for a login form, using reactstrap and social media logins. Inspired by CodeWithKris's tutorial.
+This React app displays the UI for an aesthetically pleasing login form with the option to enter user credentials or use a social media account to sign in. Used JavaScript, React, CSS, HTML, and social media logins. Inspired by CodeWithKris's tutorial.
 
 
 Preview:
