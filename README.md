@@ -5,6 +5,6 @@ Preview:
 
 <div style="text-align:center">
   <kbd>
-  <img width="700" alt="login-form" src="https://github.com/codecaviette/login-app/blob/main/public/login_app.png">
+  <img width="700" alt="login-form" src="https://github.com/codecaviette/login-app/blob/main/src/login-app.png">
   </kbd>
 </div>
